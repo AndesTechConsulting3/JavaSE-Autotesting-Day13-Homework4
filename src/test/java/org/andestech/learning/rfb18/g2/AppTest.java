@@ -3,14 +3,12 @@ package org.andestech.learning.rfb18.g2;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import static org.testng.Assert.assertTrue;
-
 
 public class AppTest
 {
 
     int a = 5;
-    int d= 6;
+    int d = 6;
 
     @Test (dependsOnMethods={"meth05Test","meth04Test"})
     public void meth01Test()
@@ -53,7 +51,7 @@ public class AppTest
     }
 
     @Test (dependsOnMethods="meth04Test")
-    public void meth05Test() throws Exception
+    public void meth05Test()
     {
         int summ=a*d-1;
         int expected = 29;

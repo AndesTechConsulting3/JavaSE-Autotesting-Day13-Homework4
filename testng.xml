@@ -9,10 +9,10 @@
         </classes>
     </test>
 
-    <test name="NegativeTest">
-        <classes>
-            <class name="org.andestech.learning.rfb18.g2.AppTest" />
-        </classes>
-    </test>
+    <!--<test name="NegativeTest">-->
+        <!--<classes>-->
+            <!--<class name="org.andestech.learning.rfb18.g2.AppTest" />-->
+        <!--</classes>-->
+    <!--</test>-->
 
 </suite>
