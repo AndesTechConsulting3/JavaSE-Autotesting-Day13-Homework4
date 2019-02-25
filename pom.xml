@@ -56,7 +56,7 @@
           <configuration>
             <suiteXmlFiles>
               <suiteXmlFile>
-                ${my.config}
+                testng.xml
               </suiteXmlFile>
             </suiteXmlFiles>
 
