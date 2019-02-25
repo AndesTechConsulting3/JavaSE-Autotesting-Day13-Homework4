@@ -6,12 +6,20 @@
     <test name="PositiveTest" allow-return-values="true" >
        <classes>
             <class name="org.andestech.learning.rfb18.g2.AppTest" />
+           <parameter name="a" value="1">
+               <parameter name="b" value="1">
+               </parameter>
+           </parameter>
         </classes>
     </test>
 
     <test name="NegativeTest">
         <classes>
             <class name="org.andestech.learning.rfb18.g2.AppTest" />
+            <parameter name="a" value="1">
+                <parameter name="b" value="2">
+                </parameter>
+            </parameter>
         </classes>
     </test>
 
